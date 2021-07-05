@@ -19,7 +19,7 @@ public class ContactTest {
     }
     @Test
     public void logintest(){
-        List<WebElement> list = wd.findElements(By.tagName("k"));
+        List<WebElement> list = wd.findElements(By.tagName("a"));
         System.out.println(list.size());
 
 
